@@ -4,7 +4,7 @@ const app = express();
 const cors = require("cors");
 
 // Connect to MongoDB
-mongoose.connect("mongodb+srv://elayedegu:Esku2212@song.kvbc3pc.mongodb.net/?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://username:<Your Password>@song.kvbc3pc.mongodb.net/?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
